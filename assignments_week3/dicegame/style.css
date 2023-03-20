@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./images/background.webp') no-repeat center center fixed;
+    background-size: cover;
+    }
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+}
+
+.dice-area {
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: black;
+}
+
+.dice-image {
+    width: 320px;
+    height: 320px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid white;
+    border-radius: 15px;
+  }
+  
+
+.score-area {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.score {
+    font-weight: bold;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.roll-button,
+.reset-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

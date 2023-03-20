@@ -1,0 +1,70 @@
+html {
+    font-size: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/vishnu-r-nair-m1WZS5ye404-unsplash.jpg") bottom center;
+    background-size: cover;
+}
+
+body, html {
+    margin: 0;
+    padding-top: 0px;
+    font-family: sans-serif;
+}
+
+.keys {
+    padding-top: 108px;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.key {
+    border: 3px solid white;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 10px;
+    padding: 10px 5px;
+    transition: all .07s ease-in-out;
+    width: 70px;
+    text-align: center;
+    color: white;
+    background: rgb(227, 148, 69)
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: rgba(255, 128, 0, 0.529);
+}
+
+kbd {
+    display: block;
+    font-size: 32px;
+}
+
+.sound {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.tv-container {
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
+    height: 50vh;
+    border: 20px solid #333;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .tv-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  

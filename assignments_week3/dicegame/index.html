@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Dice Game</h1>
+        <div class="instructions">
+        <p>Press 'Roll' to start a new game!<br><br>
+        Make it to 21 or higher to win without rolling a 1. Rolling a 1 will result in instant defeat!<br><br>
+        You can start a new game any time by hitting the reset button. <br><br>
+        Update the winning number to any number you like using the 'Winning Score box below</p>
+        </div>
+        <div class="dice-area">
+          <img class="dice-image" src="./images/opendice1.png" alt="dice">
+        </div>
+      
+        <div class="score-area">
+          <p>Score: <span class="score">0</span></p>
+          <p class="result"></p>
+          <label for="winning-score">Winning Score:</label>
+          <input type="number" id="winning-score" min="1" value="21">
+          <button class="roll-button">Roll</button>
+          <button class="reset-button">Reset</button>
+        </div>
+      </div>
+      
+    <script src="./app.js"></script>
+</body>
+</html>
